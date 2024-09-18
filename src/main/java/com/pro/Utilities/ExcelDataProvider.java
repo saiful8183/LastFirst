@@ -13,7 +13,7 @@ public class ExcelDataProvider {
 
 	public ExcelDataProvider() {
 
-		File src = new File("C:\\Users\\Manha\\eclipse-workspace\\MyFirstProject\\TestData\\New XLSX Worksheet.xlsx");
+		File src = new File("/Users/saiful/git/LastFirst/TestData/New XLSX Worksheet.xlsx");
 
 		try {
 			FileInputStream fis = new FileInputStream(src);

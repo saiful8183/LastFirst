@@ -13,7 +13,7 @@ public class ConfigDataProvider {
 
 		// File src = new File("./src/test/resources/Configuration/Config.properties");
 		File src = new File(
-				"C:\\Users\\Manha\\eclipse-workspace\\MyFirstProject\\src\\test\\resources\\Configuration\\Config.Properties");
+				"/Users/saiful/git/LastFirst/src/test/resources/Configuration/Config.Properties");
 
 		try {
 			FileInputStream fis = new FileInputStream(src);

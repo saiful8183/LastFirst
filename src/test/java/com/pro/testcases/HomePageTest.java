@@ -1,5 +1,7 @@
 package com.pro.testcases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
@@ -30,7 +32,7 @@ public class HomePageTest extends TestBase {
 		LoginPageToHomePage loginPageToHomePage = PageFactory.initElements(driver, LoginPageToHomePage.class);
 
 		System.out.println(loginPageToHomePage.checkElements());
-		Assert.assertTrue(loginPageToHomePage.checkElements());
+		AssertJUnit.assertTrue(loginPageToHomePage.checkElements());
 
 	
 
